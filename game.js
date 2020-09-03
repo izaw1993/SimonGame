@@ -104,7 +104,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     },200);
 
-    $("h1").text("Game Over, Press HERE to Restart");
+    $("h1").html("Your score " + level + " Press HERE to Restart");
     startOver();
   }
 
